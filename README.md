@@ -32,7 +32,7 @@ O desafio desde projeto é elaborar um website, utilizando uma estrutura básica
 ### Por último, mas não menos importante:
 A página da Web deve ser sobre os conteúdos estudados no curso. Colocar um índice das aulas e fazer no decorrer da página um resumo de cada aula.
 
-Embaixo colocar também referências.
+Embaixo colocar também referências se tiver.
 
 
 
