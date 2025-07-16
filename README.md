@@ -19,7 +19,7 @@ O desafio desde projeto é elaborar um website, utilizando uma estrutura básica
     - `<sup>`
     - `<blockquote>`
   
-- Utilizar novas tags sugeridas:
+- Novas tags sugeridas:
     - `<font>`
     - `<del>`
     - `<p>`
