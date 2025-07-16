@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Desafio Dio</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+  <h1 id="topo"> Formação HTML Web Developer - Primeiro Módulo: "Primeiros passos com HTML" </h1>
+  <h2>Índice:</h2>
+  <ul>
+      <li><a href="#surgimento">História da Web</a></li>
+      <li><a href="#clients_servers">Clients X Servers</a></li>
+      <li><a href="#linguagens">Linguagens de Programação</a></li>
+      <li><a href=#html>Introdução ao HTML na Prática</a></li>
+  </ul>
+
+<hr />
+
+    <h2 id="surgimento">História da Web</h2>
+        <p>
+          Não podemos falar da história da internet sem antes entender um pouco da história dos computadores, já que uma depende da outra.<br>
+          <br>
+          Tudo começou com máquinas gigantes e rudimentares. Um marco importante foi o Harvard Mark I, criado nos anos 1940. Embora existam máquinas anteriores, ele é considerado o primeiro computador a realizar cálculos complexos de forma automática. Pouco tempo depois, durante a Segunda Guerra Mundial, surgiu o Colossus, na Inglaterra, usado para decifrar mensagens criptografadas. E logo depois veio o ENIAC, nos Estados Unidos, criado para calcular trajetórias de mísseis. Foi nesse contexto que surgiu o termo "bug", que era quando um inseto pousava nos computadores e causava uma falha no sistema.<br>
+          <br>
+          Com o tempo, os computadores foram evoluindo. A segunda geração trouxe os transistores, que substituíram as válvulas e tornaram os computadores menores, mais eficientes e menos quentes. Na terceira geração, surgiu o circuito integrado, que reúne transistores, capacitores e resistores num único chip, acelerando o processamento e diminuindo o tamanho das máquinas.<br>
+          <br>
+          Na quarta geração, nas décadas de 1970 e 1980, os computadores se tornaram pessoais. É a era do PC (Personal Computer), que se estende até hoje. Foi nessa época que empresas como Apple e Microsoft mudaram o mundo. A Apple introduziu o mouse como interface gráfica, facilitando o uso dos computadores. Já a Microsoft, liderada por Bill Gates (nascido em 1955), lançou o sistema operacional Windows, que dominaria o mercado e levaria os computadores a casas e escritórios em todo o planeta.<br>
+          <br>
+          Hoje, fala-se numa quinta geração, que engloba tecnologias emergentes como computadores quânticos, inteligência artificial, metaverso e criptomoedas. Há quem diga que já vivemos essa fase — ou pelo menos estamos no início dela.<br>
+          <br>
+          Nesse cenário de avanços tecnológicos, surge a internet. A ideia de conectar pessoas e informações à distância não é nova: no século XIX já existia o telégrafo, e o código Morse foi essencial para comunicações à longa distância. Em 1958, foi feita a primeira comunicação intercontinental. Mas o grande salto aconteceu no contexto da Guerra Fria, quando Estados Unidos e União Soviética disputavam a supremacia tecnológica na corrida espacial. Foi aí que os EUA criaram a ARPA, uma agência de pesquisas avançadas, que mais tarde se tornaria a DARPA.<br>
+          <br>
+          Um dos visionários dessa época foi J.C.R. Licklider, que teorizou uma "rede galáctica" de computadores interligados — algo muito próximo do que seria a internet. Ele foi recrutado pela DARPA e ajudou a plantar as primeiras sementes do que viria a ser a ARPANET, a primeira rede de computadores do mundo. Essa rede foi baseada em um sistema de comunicação por pacotes, que dividia os dados em partes menores para facilitar a transmissão e evitar perdas.<br>
+          <br>
+          A primeira conexão da ARPANET foi feita entre duas universidades em 1969. Tentaram digitar a palavra "login", mas o sistema caiu depois das duas primeiras letras — e assim, junto com a primeira conexão, veio também a primeira queda de sistema.<br>
+          <br>
+          Com o tempo, a ARPANET evoluiu e adotou o protocolo TCP/IP, criado por Robert Kahn e Vint Cerf, que até hoje é a base técnica da internet. Como a rede original era restrita a fins militares e de pesquisa, outras redes foram sendo criadas, e o conceito de uma internet pública e aberta foi ganhando forma.<br>
+          <br>
+          Foi então que, no início dos anos 1990, Tim Berners-Lee, um cientista britânico do CERN, teve a ideia de unir o hipertexto (textos com links clicáveis) com o protocolo TCP/IP, criando a World Wide Web (WWW). Em 1991, ele lançou o primeiro site do mundo, que pode ser acessado até hoje no link <a href="http://info.cern.ch/" target="_blank" rel="noopener noreferrer">http://info.cern.ch/</a>. Ele também foi o criador do HTML, do HTTP e das URLs — os três pilares da web como conhecemos.<br>
+          <br>
+          Diversos nomes foram fundamentais nesse processo. Grace Hopper, uma das primeiras programadoras do Mark I, foi responsável por desenvolver uma linguagem de programação de alto nível, o Flow-Matic, que deu origem ao COBOL. Ela também ajudou a popularizar o termo “bug” na computação.<br>
+          <br>
+          Robert E. Kahn, além de criar o TCP/IP, apresentou ao mundo o primeiro e-mail e fez a primeira demonstração pública da ARPANET. Já Marc Andreessen revolucionou a forma de navegar pela web ao lançar o Netscape, o primeiro navegador com interface gráfica acessível e amigável. Durante um tempo, o Netscape dominou a web, até ser superado pelo Internet Explorer, criado pela Microsoft.<br>
+          <br>
+          Bill Gates, com a Microsoft, teve papel essencial na popularização do computador pessoal com acesso à internet. Seu rival direto, Steve Jobs, fundador da Apple, foi o responsável por reinventar a relação das pessoas com a internet ao lançar o iPhone em 2007, marcando o início da era dos smartphones como centros de conexão digital.
+        </p>
+        <small><a href=#topo>Voltar ao topo</a></small>
+
+    <h2 id="clients_servers">Clients X Servers</h2>
+        <p> 
+          Na comunicação digital, especialmente na internet, usamos o modelo cliente-servidor. Nesse modelo, o cliente (client) é quem faz o pedido e o servidor (server) é quem responde.<br>
+          <br>
+          O cliente é geralmente o dispositivo do usuário, como um computador, celular ou navegador de internet. Quando você acessa um site, por exemplo, seu navegador está atuando como cliente — ele envia uma solicitação para um servidor pedindo os dados daquela página.<br>
+          <br>
+          O servidor, por sua vez, é um computador ou sistema que armazena e fornece recursos, como sites, arquivos ou serviços. Ele recebe o pedido do cliente, processa a informação e devolve a resposta — normalmente, a página web que você vê na tela.<br>
+          <br>
+          De forma simples: o cliente pede, o servidor entrega. Essa troca acontece o tempo todo quando usamos aplicativos, assistimos vídeos online, enviamos mensagens ou acessamos qualquer serviço digital.
+        </p>
+        <small><a href=#topo>Voltar ao topo</a></small>
+
+    <h2 id="linguagens">Linguagens de Programação</h2>
+        <p>
+          No desenvolvimento web, usamos diferentes linguagens de programação dependendo da função que o código vai exercer. De forma geral, o desenvolvimento é dividido entre frontend e backend.<br>
+          <br>
+          O frontend é a parte que roda no lado cliente, que é a parte visual e interativa de um site — aquilo que o usuário vê e com o que interage. As principais linguagens usadas no frontend são:
+          <ul>
+              <li>HTML (HyperText Markup Language): apesar de ser essencial para a web, o HTML não é uma linguagem de programação, e sim uma linguagem de <strong>marcação</strong>. Isso significa que ele serve apenas para estruturar o conteúdo da página (como títulos, parágrafos, imagens, links), mas não possui lógica nem comandos para executar ações, como condições ou laços de repetição.</li><br>
+              <li>CSS (Cascading Style Sheets): é responsável pela aparência da página — cores, tamanhos, posicionamentos, fontes e responsividade.</li><br>
+              <li>JavaScript: aqui sim temos uma linguagem de programação. É ela que adiciona interatividade à página, como cliques, animações, validações de formulários, menus dinâmicos, entre outros.</li>
+          </ul>
+
+          Já o backend é a parte que o usuário não vê — onde são processadas as informações, são as linguagens que rodam no lado do servidor, onde são feitas conexões com bancos de dados, autenticações, regras de negócio e envio de dados para o frontend. As linguagens mais comuns no backend são:
+          <ul>
+              <li>JavaScript (com Node.js): permite que o JavaScript seja usado também no lado servidor.</li><br>
+              <li>Python: muito utilizado por sua simplicidade e por frameworks como Django e Flask.</li><br>
+              <li>PHP: ainda muito presente em sistemas como WordPress.</li><br>
+              <li>Java e C#: usados em aplicações robustas, com foco em desempenho e segurança.</li><br>
+              <li>Ruby (com o framework Ruby on Rails): é outra opção que já foi muito popular.</li><br>
+        </ul>
+        </p>
+        <small><a href=#topo>Voltar ao topo</a></small>
+
+<h2 id="html">Introdução ao HTML</h2>
+        <p>
+          O HTML, sigla para HyperText Markup Language (Linguagem de Marcação de Hipertexto), é a base de qualquer página web. Ele não é uma linguagem de programação, porque não executa lógicas ou comandos, mas sim uma linguagem de marcação, usada para estruturar e organizar o conteúdo que será exibido no navegador.<br>
+          <br>
+          Toda página em HTML segue uma estrutura básica, que começa com a declaração &lt;!DOCTYPE html&gt;, informando ao navegador que aquele é um documento HTML. Em seguida, temos a tag &lt;html&gt;, que envolve todo o conteúdo da página. Dentro dela, encontramos duas partes principais: a tag &lt;head&gt;, onde ficam as informações invisíveis ao usuário, como o título da página e links para estilos ou scripts, e a tag &lt;body&gt;, que contém todo o conteúdo visível na tela — como textos, imagens, listas e links.<br>
+          <br>
+          O HTML é composto por tags, que são como blocos de construção. Elas geralmente vêm em pares: uma de abertura (como &lt;p&gt;) e uma de fechamento (como &lt;/p&gt;), e envolvem o conteúdo que será exibido. Cada tag tem uma função específica — por exemplo, &lt;h1&gt; define um título principal, &lt;p&gt; define um parágrafo, e &lt;img&gt; insere uma imagem.<br>
+          <br>
+          Além do conteúdo, muitas tags podem conter atributos, que são informações adicionais colocadas dentro da tag de abertura. Um exemplo é a tag de imagem &lt;img&gt;, que usa atributos como src (para indicar o caminho da imagem) e alt (para descrever a imagem). Outro exemplo é o atributo href usado em links, dentro da tag &lt;a&gt;, para indicar para onde o link deve levar.<br>
+          <br>
+          Para exibir textos, usamos tags como &lt;h1&gt; até &lt;h6&gt; para títulos em diferentes níveis de hierarquia, e a tag &lt;p&gt; para parágrafos. Podemos também estilizar esses textos com tags como &lt;strong&gt; para deixar em negrito ou &lt;em&gt; para itálico.<br>
+          <br>
+          O HTML também permite criar listas, que podem ser ordenadas ou não ordenadas. As listas ordenadas, feitas com a tag &lt;ol&gt;, exibem os itens numerados (1, 2, 3...). Já as listas não ordenadas, com a tag &lt;ul&gt;, mostram os itens com marcadores simples (como bolinhas). Em ambos os casos, cada item da lista é marcado com a tag &lt;li&gt;.<br>
+          <br>
+          Por fim, uma das funções mais importantes do HTML é a criação de links, que permitem a navegação entre páginas ou redirecionamento para outros sites. Isso é feito com a tag &lt;a&gt;, onde o atributo href define o destino do link. Por exemplo, &lt;a href="https://www.exemplo.com"&gt; &lt;Clique aqui&gt; &lt;/a&gt; cria um link clicável com o texto "Clique aqui".
+        </p>
+        <small><a href=#topo>Voltar ao topo</a></small>
